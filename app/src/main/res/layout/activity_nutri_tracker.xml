@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pastel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="45dp">
+
+        <!-- 🔹 TITLE ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nutri Tracker"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"/>
+
+            <LinearLayout
+                android:id="@+id/historyContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/historyIcon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_history"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meal History"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_secondary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 🔹 DESCRIPTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track your daily macros"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- 🔹 INPUT CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/bg_card"
+            android:elevation="8dp">
+
+            <EditText
+                android:id="@+id/foodNameEt"
+                android:hint="Food Name"
+                android:padding="8dp"
+                style="@style/roundedInput"/>
+
+            <EditText
+                android:id="@+id/proteinEt"
+                android:hint="Protein (g)"
+                android:padding="8dp"
+                android:inputType="numberDecimal"
+                style="@style/roundedInput"/>
+
+            <EditText
+                android:id="@+id/carbsEt"
+                android:hint="Carbs (g)"
+                android:padding="8dp"
+                android:inputType="numberDecimal"
+                style="@style/roundedInput"/>
+
+            <EditText
+                android:id="@+id/fatsEt"
+                android:hint="Fats (g)"
+                android:padding="8dp"
+                android:inputType="numberDecimal"
+                style="@style/roundedInput"/>
+
+            <Button
+                android:id="@+id/addFoodBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Meal"
+                android:layout_marginTop="12dp"
+                style="@style/PrimaryButton"/>
+        </LinearLayout>
+
+        <!-- 🔹 TOTALS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/bg_card"
+            android:elevation="8dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:text="Today's Total"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/totalProteinTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protein: 0 g"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/totalCarbsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carbs: 0 g"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/totalFatsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fats: 0 g"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/viewDetailsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Today's Details"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp"
+                style="@style/SecondaryButton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

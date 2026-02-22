@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862058323119",
+    "project_id": "diettrackerapp-6a76c",
+    "storage_bucket": "diettrackerapp-6a76c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862058323119:android:1f850b59962ffae31a885a",
+        "android_client_info": {
+          "package_name": "com.example.diettracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDESWdiTuwpfLOm6N8WE3Rw5RrN7IpPpDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center_horizontal">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your BMI Result"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <!-- BMI VALUE -->
+    <TextView
+        android:id="@+id/dialogBmiValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22.4"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginTop="16dp"/>
+
+    <!-- STATUS -->
+    <TextView
+        android:id="@+id/dialogBmiStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="8dp"/>
+
+    <!-- BUTTONS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/secondaryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:textColor="@color/white"
+            style="@style/SecondaryButton"/>
+
+        <Button
+            android:id="@+id/primaryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Plan"
+            android:layout_marginStart="12dp"
+            style="@style/PrimaryButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

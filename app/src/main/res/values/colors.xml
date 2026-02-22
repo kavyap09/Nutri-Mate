@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+
+    <!-- Backgrounds -->
+    <color name="bg_screen">#F5FBF6</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <!-- Text -->
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- Inputs -->
+    <color name="input_bg">#F1F8F4</color>
+    <color name="input_stroke">#C8E6C9</color>
+
+    <!-- Button -->
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_primary">#4CAF50</color>
+    <color name="button_secondary_bg">#E8F5E9</color>
+    <color name="button_secondary_text">#2E7D32</color>
+    <color name="primary">#2E7D32</color>        <!-- Healthy Green -->
+    <color name="primary_light">#A5D6A7</color>
+    <color name="text_primary">#1B5E20</color>
+    <color name="text_secondary">#4E6E5D</color>
+
+
+</resources>

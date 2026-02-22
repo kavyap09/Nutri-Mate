@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================= PROTEIN FOOD NAMES ================= -->
+    <string-array name="protein_food_names">
+        <item>Egg Whites (11g protein)</item>
+        <item>Grilled Chicken Breast (31g protein)</item>
+        <item>Fish (22g protein)</item>
+        <item>Low Fat Paneer (18g protein)</item>
+        <item>Tofu (8g protein)</item>
+        <item>Greek Yogurt (10g protein)</item>
+        <item>Low Fat Curd (6g protein)</item>
+        <item>Sprouts (7g protein)</item>
+        <item>Soy Chunks (52g protein)</item>
+        <item>Dal (9g protein)</item>
+        <item>Chickpeas (19g protein)</item>
+        <item>Rajma (24g protein)</item>
+        <item>Almonds (21g protein)</item>
+        <item>Chia Seeds (17g protein)</item>
+    </string-array>
+
+    <array name="protein_food_images">
+        <item>@drawable/egg_whites</item>
+        <item>@drawable/chicken_breast</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/paneer</item>
+        <item>@drawable/tofu</item>
+        <item>@drawable/greek_yogurt</item>
+        <item>@drawable/curd</item>
+        <item>@drawable/sprouts</item>
+        <item>@drawable/soy_chunks</item>
+        <item>@drawable/dal</item>
+        <item>@drawable/chickpeas</item>
+        <item>@drawable/rajma</item>
+        <item>@drawable/almonds</item>
+        <item>@drawable/chia_seeds</item>
+    </array>
+
+    <!-- ================= CARBOHYDRATES ================= -->
+    <string-array name="carb_food_names">
+        <item>Brown Rice (23g carbs)</item>
+        <item>Oats (66g carbs)</item>
+        <item>Whole Wheat Roti (18g carbs)</item>
+        <item>Quinoa (64g carbs)</item>
+        <item>Sweet Potato (20g carbs)</item>
+        <item>Millets (72g carbs)</item>
+        <item>Fruits (15g carbs)</item>
+        <item>Vegetables (10g carbs)</item>
+        <item>Boiled Corn (19g carbs)</item>
+        <item>Beans (21g carbs)</item>
+    </string-array>
+
+    <array name="carb_food_images">
+        <item>@drawable/brown_rice</item>
+        <item>@drawable/oats</item>
+        <item>@drawable/roti</item>
+        <item>@drawable/quinoa</item>
+        <item>@drawable/sweet_potato</item>
+        <item>@drawable/millets</item>
+        <item>@drawable/fruits</item>
+        <item>@drawable/vegetables</item>
+        <item>@drawable/corn</item>
+        <item>@drawable/beans</item>
+    </array>
+
+    <!-- ================= FATS ================= -->
+    <string-array name="fat_food_names">
+        <item>Almonds (50g fat)</item>
+        <item>Walnuts (65g fat)</item>
+        <item>Cashews (44g fat)</item>
+        <item>Peanuts (49g fat)</item>
+        <item>Chia Seeds (31g fat)</item>
+        <item>Flax Seeds (42g fat)</item>
+        <item>Pumpkin Seeds (49g fat)</item>
+        <item>Olive Oil (100g fat)</item>
+        <item>Coconut Oil (100g fat)</item>
+        <item>Avocado (15g fat)</item>
+    </string-array>
+
+    <array name="fat_food_images">
+        <item>@drawable/almonds</item>
+        <item>@drawable/walnuts</item>
+        <item>@drawable/cashews</item>
+        <item>@drawable/peanuts</item>
+        <item>@drawable/chia_seeds</item>
+        <item>@drawable/flax_seeds</item>
+        <item>@drawable/pumpkin_seeds</item>
+        <item>@drawable/olive_oil</item>
+        <item>@drawable/coconut_oil</item>
+        <item>@drawable/avocado</item>
+    </array>
+
+</resources>
